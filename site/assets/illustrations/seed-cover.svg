@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Seedling in a painted garden</title>
+  <desc id="desc">A child waters a small blue flower in a soft hand-painted garden.</desc>
+  <defs>
+    <filter id="paper">
+      <feTurbulence type="fractalNoise" baseFrequency="0.018" numOctaves="4" seed="7"/>
+      <feColorMatrix type="saturate" values="0.35"/>
+      <feBlend in="SourceGraphic" mode="multiply"/>
+    </filter>
+    <linearGradient id="sky" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#b7e2ef"/>
+      <stop offset="0.58" stop-color="#f7f0b6"/>
+      <stop offset="1" stop-color="#f6d2c9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#sky)"/>
+  <g filter="url(#paper)">
+    <path d="M0 655c155-92 309-83 462-34 138 44 264 45 382-8 143-65 269-42 356 22v265H0Z" fill="#8ccf9a"/>
+    <path d="M0 733c128-48 277-50 446-7 201 51 367 45 497-18 109-53 195-48 257-6v198H0Z" fill="#56b789" opacity=".78"/>
+    <circle cx="990" cy="152" r="83" fill="#ffe066"/>
+    <path d="M191 632c-55 18-89 71-74 119 15 47 72 73 127 55 55-17 89-70 74-118-15-48-72-73-127-56Z" fill="#f5b8a8"/>
+    <path d="M226 533c-64 8-104 58-94 118 9 58 64 101 125 94 63-8 104-60 95-119-10-59-65-101-126-93Z" fill="#8b5a3c"/>
+    <path d="M190 624c38 18 90 11 123-18 3 58-28 106-79 115-47 8-93-23-102-71 20 6 41-2 58-26Z" fill="#ffd6be"/>
+    <path d="M192 732c-35 51-48 106-38 168h202c9-73-8-130-49-171-32 19-77 21-115 3Z" fill="#f25f5c"/>
+    <path d="M355 744c44-52 91-84 143-97" fill="none" stroke="#704832" stroke-width="26" stroke-linecap="round"/>
+    <path d="M154 757c-41-7-71-25-91-55" fill="none" stroke="#704832" stroke-width="24" stroke-linecap="round"/>
+    <path d="M513 772c10-77 23-154 39-231" fill="none" stroke="#2a7b4f" stroke-width="22" stroke-linecap="round"/>
+    <path d="M552 604c-78-76-156-87-232-32 70 9 130 31 180 67Z" fill="#54b878"/>
+    <path d="M559 590c74-82 154-100 239-53-72 17-132 46-179 88Z" fill="#68c889"/>
+    <circle cx="560" cy="507" r="56" fill="#75b9e7"/>
+    <circle cx="504" cy="520" r="49" fill="#8dcdf2"/>
+    <circle cx="612" cy="524" r="48" fill="#8dcdf2"/>
+    <circle cx="559" cy="570" r="50" fill="#5aa6d6"/>
+    <circle cx="559" cy="530" r="24" fill="#ffe066"/>
+    <path d="M461 696c51 36 127 45 202 19 82-28 146-11 178 38" fill="none" stroke="#247ba0" stroke-width="16" stroke-linecap="round" opacity=".55"/>
+    <path d="M718 779c92-62 195-76 309-42" fill="none" stroke="#fff7d1" stroke-width="32" stroke-linecap="round" opacity=".55"/>
+  </g>
+</svg>

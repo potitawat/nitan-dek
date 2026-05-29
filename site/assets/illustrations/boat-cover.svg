@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Paper boats in a little stream</title>
+  <desc id="desc">Children watch paper boats float along a painted neighborhood stream.</desc>
+  <defs>
+    <filter id="paper">
+      <feTurbulence type="fractalNoise" baseFrequency="0.017" numOctaves="4" seed="21"/>
+      <feBlend in="SourceGraphic" mode="multiply"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="900" fill="#cdeef7"/>
+  <g filter="url(#paper)">
+    <path d="M0 599c130-61 267-73 411-36 175 45 327 42 458-9 132-51 242-54 331-7v353H0Z" fill="#70c1b3"/>
+    <path d="M0 690c122-48 255-57 399-27 198 42 375 31 532-33 114-46 204-45 269 2v268H0Z" fill="#247ba0" opacity=".7"/>
+    <path d="M0 788c162-38 317-35 466 10 166 51 332 37 499-41 90-42 168-47 235-16v159H0Z" fill="#175a7b" opacity=".45"/>
+    <path d="M420 578 604 412l168 164-169 64Z" fill="#ffffff"/>
+    <path d="M420 578h352l-94 98H501Z" fill="#ffe066"/>
+    <path d="M541 523c45-38 85-72 120-102" fill="none" stroke="#f25f5c" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="204" cy="398" r="76" fill="#8b5a3c"/>
+    <path d="M141 461c41 34 96 40 145 14 3 64-31 111-87 116-51 4-94-31-99-84 18 4 32-10 41-46Z" fill="#ffd6be"/>
+    <path d="M103 580c86-34 158-32 216 6 35 72 41 176 20 314H80c-6-121 2-227 23-320Z" fill="#f25f5c"/>
+    <circle cx="946" cy="378" r="70" fill="#4b3b78"/>
+    <path d="M892 436c36 30 86 34 128 10 4 58-26 101-77 105-46 4-85-29-90-77 16 4 28-8 39-38Z" fill="#f4c7ad"/>
+    <path d="M846 557c77-31 143-29 198 4 34 75 45 184 33 339H821c-7-132 1-246 25-343Z" fill="#70c1b3"/>
+    <path d="M306 661c45-32 88-52 130-60M793 651c-47-26-91-42-134-48" fill="none" stroke="#704832" stroke-width="22" stroke-linecap="round"/>
+    <path d="M131 250h190M891 226h184M741 138h96" fill="none" stroke="#fff" stroke-width="28" stroke-linecap="round" opacity=".75"/>
+  </g>
+</svg>

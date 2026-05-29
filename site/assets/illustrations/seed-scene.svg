@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Flower pot by a window</title>
+  <desc id="desc">A small flower pot sits beside a window with warm sunlight.</desc>
+  <defs>
+    <filter id="paper">
+      <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="4" seed="13"/>
+      <feBlend in="SourceGraphic" mode="multiply"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="900" fill="#fff6d7"/>
+  <g filter="url(#paper)">
+    <rect x="82" y="87" width="1036" height="570" rx="36" fill="#d5eef4"/>
+    <rect x="132" y="135" width="936" height="470" rx="26" fill="#b7e2ef"/>
+    <path d="M132 485c108-81 219-88 334-22 150 87 306 89 470 6 56-28 100-38 132-31v167H132Z" fill="#8fd3a2"/>
+    <path d="M600 135v470M132 370h936" fill="none" stroke="#ffffff" stroke-width="22" stroke-linecap="round"/>
+    <rect x="0" y="626" width="1200" height="274" fill="#f7d7a8"/>
+    <path d="M431 555h338l-48 245H479Z" fill="#d57b59"/>
+    <path d="M466 555h268c-23 34-63 52-130 52-64 0-109-17-138-52Z" fill="#ee9a74"/>
+    <path d="M600 558c0-89 0-166 2-232" fill="none" stroke="#2a7b4f" stroke-width="24" stroke-linecap="round"/>
+    <path d="M601 432c-76-62-147-68-212-16 70 6 123 24 160 54Z" fill="#54b878"/>
+    <path d="M607 414c80-70 154-82 224-37-66 15-118 42-157 80Z" fill="#68c889"/>
+    <circle cx="603" cy="287" r="55" fill="#75b9e7"/>
+    <circle cx="548" cy="305" r="47" fill="#8dcdf2"/>
+    <circle cx="657" cy="307" r="47" fill="#8dcdf2"/>
+    <circle cx="602" cy="350" r="48" fill="#5aa6d6"/>
+    <circle cx="603" cy="318" r="24" fill="#ffe066"/>
+  </g>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Library in the clouds</title>
+  <desc id="desc">A moonlit cloud library with a silver staircase and glowing books.</desc>
+  <defs>
+    <filter id="paper">
+      <feTurbulence type="fractalNoise" baseFrequency="0.016" numOctaves="4" seed="41"/>
+      <feBlend in="SourceGraphic" mode="multiply"/>
+    </filter>
+    <linearGradient id="night" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#3f4c8f"/>
+      <stop offset=".62" stop-color="#7aaed6"/>
+      <stop offset="1" stop-color="#f5d7b0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#night)"/>
+  <g filter="url(#paper)">
+    <circle cx="1002" cy="144" r="82" fill="#fff1a8"/>
+    <path d="M0 707c94-88 202-114 325-78 47-95 130-132 248-110 72-102 179-132 321-88 82 25 148 75 197 150 44-4 80 0 109 12v307H0Z" fill="#f6fbff"/>
+    <path d="M135 705c94-47 197-44 308 10 141 69 285 65 432-11 112-58 216-61 312-9v205H135Z" fill="#dceef6"/>
+    <path d="M357 554h486v246H357Z" fill="#ffffff"/>
+    <path d="M405 505h390l48 49H357Z" fill="#ffe066"/>
+    <rect x="411" y="603" width="76" height="141" rx="6" fill="#f25f5c"/>
+    <rect x="516" y="594" width="76" height="150" rx="6" fill="#247ba0"/>
+    <rect x="622" y="615" width="76" height="129" rx="6" fill="#70c1b3"/>
+    <rect x="728" y="585" width="76" height="159" rx="6" fill="#8b5a3c"/>
+    <path d="M146 881c114-83 230-158 349-226 143-81 280-143 413-185" fill="none" stroke="#e7edf5" stroke-width="24" stroke-linecap="round"/>
+    <path d="M199 806c67-31 137-61 209-91M292 748c72-30 147-58 225-85M396 689c78-31 159-59 243-84" fill="none" stroke="#ffffff" stroke-width="12" stroke-linecap="round"/>
+    <path d="M150 188h104M303 120h56M797 250h172M870 87h70" fill="none" stroke="#fff" stroke-width="22" stroke-linecap="round" opacity=".8"/>
+    <circle cx="286" cy="333" r="8" fill="#fff1a8"/>
+    <circle cx="342" cy="275" r="6" fill="#fff1a8"/>
+    <circle cx="925" cy="350" r="7" fill="#fff1a8"/>
+  </g>
+</svg>
